@@ -3,6 +3,7 @@ const aiService = require("../services/ai.service")
 
 
 module.exports.getReview = async (req, res) => {
+    console.log(req?.body?.code);
 
     const code = req.body.code;
 
